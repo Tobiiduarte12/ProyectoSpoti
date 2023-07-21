@@ -14,6 +14,7 @@ import {
   SignosContainer,
 } from "./HeroLeftDownStyled";
 import { FirstBtn } from "../Button/FirstButtonStyle";
+import CardsHeroLeftContain from "../CardsHeroLeft/CardsHeroLeftContain";
 
 const HeroLeftDown = () => {
   return (
@@ -44,6 +45,7 @@ const HeroLeftDown = () => {
           Recientes <BiSolidDownArrow />
         </HeroLeftLink>
       </HeroLeftMid>
+      <CardsHeroLeftContain></CardsHeroLeftContain>
     </HeroLeftDownContainer>
   );
 };
