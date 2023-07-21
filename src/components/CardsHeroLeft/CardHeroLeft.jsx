@@ -12,7 +12,7 @@ const CardHeroLeft = ({ title, img, canciones, category }) => {
       <div>
         <h3>{title}</h3>
         <CardInfoStyled>
-          <AiFillPushpin style={{ color: "#1ed760" }} />
+          <AiFillPushpin style={{ color: "#1ed760", fontSize: "1rem" }} />
           <p>{category}</p>
           <span>·</span>
           <p>{canciones} canciones</p>

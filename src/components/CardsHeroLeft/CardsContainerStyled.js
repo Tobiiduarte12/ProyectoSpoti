@@ -10,7 +10,8 @@ export const CardsHeroLeftStyled = styled.div`
 
   & h3 {
     color: var(--text-base);
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-weight: 400;
   }
 `;
 
