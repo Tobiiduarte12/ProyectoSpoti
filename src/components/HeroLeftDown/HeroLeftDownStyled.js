@@ -8,6 +8,7 @@ export const HeroLeftDownContainer = styled.div`
   margin: 10px;
   border-radius: 5px;
   padding: 10px 20px;
+  height: calc(100vh - 220px);
 `;
 
 export const HeroLeftDownBiblio = styled.div`
@@ -43,6 +44,7 @@ export const ButtonsContainer = styled.div`
   display: flex;
   justify-content: space-between;
   gap: 10px;
+  flex-wrap: wrap;
 
   :hover {
     background-color: var(--background-elevated-highlight);

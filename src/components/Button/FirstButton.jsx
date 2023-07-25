@@ -1,9 +1,9 @@
 // import React from "react";
 
-import { FirstBtn } from "./FirstButtonStyle";
+import { FirstBtn } from "./ButtonStyled";
 
 const FirstButton = () => {
-  return <FirstBtn>FirstButton</FirstBtn>;
+  return <FirstBtn></FirstBtn>;
 };
 
 export default FirstButton;

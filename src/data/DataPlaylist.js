@@ -20,4 +20,25 @@ export const playlists = [
     canciones: "554",
     category: "Lista",
   },
+  {
+    title: "Playlist pal gym",
+    id: 4,
+    img: "./images/icon.jpg",
+    canciones: "554",
+    category: "Lista",
+  },
+  {
+    title: "Playlist pal gym",
+    id: 5,
+    img: "./images/icon.jpg",
+    canciones: "554",
+    category: "Lista",
+  },
+  {
+    title: "Playlist pal gym",
+    id: 6,
+    img: "./images/icon.jpg",
+    canciones: "554",
+    category: "Lista",
+  },
 ];

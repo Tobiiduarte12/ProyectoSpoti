@@ -13,7 +13,7 @@ import {
   HeroLeftMid,
   SignosContainer,
 } from "./HeroLeftDownStyled";
-import { FirstBtn } from "../Button/FirstButtonStyle";
+import { FirstBtn } from "../Button/ButtonStyled";
 import CardsHeroLeftContain from "../CardsHeroLeft/CardsHeroLeftContain";
 
 const HeroLeftDown = () => {

@@ -7,6 +7,7 @@ export const CardsHeroLeftStyled = styled.div`
   width: 100%;
   height: calc(100vh - 80px);
   color: var(--text-subdued);
+  overflow-y: scroll;
 
   & h3 {
     color: var(--text-base);
@@ -20,10 +21,17 @@ export const CardContainerStyled = styled.div`
   gap: 10px;
   align-items: center;
   font-size: 0.8rem;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 5px;
 
   & img {
-    width: 60px;
+    width: 50px;
     border-radius: 15px;
+  }
+
+  &:hover {
+    background-color: var(--background-elevated-base);
   }
 `;
 

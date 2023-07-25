@@ -5,7 +5,8 @@ import { CardContainerStyled, CardInfoStyled } from "./CardsContainerStyled";
 // ********* icons *********
 import { AiFillPushpin } from "react-icons/ai";
 
-const CardHeroLeft = ({ title, img, canciones, category }) => {
+// eslint-disable-next-line react/prop-types
+function CardHeroLeft({ title, img, canciones, category }) {
   return (
     <CardContainerStyled>
       <img src={img} alt={title} />
@@ -20,6 +21,6 @@ const CardHeroLeft = ({ title, img, canciones, category }) => {
       </div>
     </CardContainerStyled>
   );
-};
+}
 
 export default CardHeroLeft;
