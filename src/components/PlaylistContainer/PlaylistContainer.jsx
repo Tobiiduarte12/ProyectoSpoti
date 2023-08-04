@@ -11,6 +11,8 @@ const PlaylistContainer = () => {
       <CardPlaylist />
       <CardPlaylist />
       <CardPlaylist />
+      <CardPlaylist />
+      <CardPlaylist />
     </PlaylistContainerStyled>
   );
 };
