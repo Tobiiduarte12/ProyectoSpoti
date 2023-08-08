@@ -2,7 +2,7 @@ export const playlists = [
   {
     title: "Tus me gusta",
     id: 1,
-    img: "./images/icon-mg.jpg",
+    img: "/public/images/icon-mg.jpg",
     canciones: "243",
     category: "Lista",
   },

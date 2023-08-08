@@ -7,7 +7,7 @@ const FirstSection = () => {
   return (
     <FirstSectionStyled>
       <h2>¡Buenos dias!</h2>
-      <PlaylistContainer />
+      <PlaylistContainer></PlaylistContainer>
     </FirstSectionStyled>
   );
 };

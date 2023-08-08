@@ -29,7 +29,9 @@ const HeaderRigth = () => {
           <MdOutlineDownloadForOffline />
           Instalar app
         </ButtonHeadUser>
-        <img src="./images/icon-enEsa.jpeg" alt="" />
+        <a href="#" style={{ color: "white" }}>
+          Iniciar Sesión
+        </a>
       </UserHeadContainer>
     </HeaderStyled>
   );
