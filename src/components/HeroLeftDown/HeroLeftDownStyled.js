@@ -43,8 +43,9 @@ export const SignosContainer = styled.div`
 export const ButtonsContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 2px;
   flex-wrap: wrap;
+  width: 100%;
 
   :hover {
     background-color: var(--background-elevated-highlight);
