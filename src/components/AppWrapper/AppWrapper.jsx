@@ -2,6 +2,7 @@
 
 import HeroLeft from "../HeroLeft/HeroLeft";
 import HeroRigth from "../HeroRigth/HeroRigth";
+import RepodructorContainer from "../reporductor/RepodructorContainer";
 import { AppWrapperStyled } from "./AppWrapperStyled";
 
 const AppWrapper = () => {
@@ -9,6 +10,7 @@ const AppWrapper = () => {
     <AppWrapperStyled>
       <HeroLeft />
       <HeroRigth />
+      <RepodructorContainer />
     </AppWrapperStyled>
   );
 };

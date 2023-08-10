@@ -34,12 +34,14 @@ export const InfoPlaylist = styled.div`
   align-items: center;
   justify-content: space-around;
   transition: all 0.5s ease-in-out;
+  border-radius: 0 10px 10px 0;
 
   & button {
     display: none;
   }
 
   &:hover {
+    background-color: var(--background-tinted-highlight);
     & button {
       display: flex;
     }

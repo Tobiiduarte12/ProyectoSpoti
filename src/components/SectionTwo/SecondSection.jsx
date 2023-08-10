@@ -4,6 +4,7 @@
 import {
   CardProgramContainerStyled,
   CardProgramsStyled,
+  InfoProgramContainerStyled,
   SecondSectionStyled,
   TitleContainer,
 } from "./SecondSectionStyled";
@@ -24,11 +25,15 @@ const SecondSection = () => {
 
           return (
             <CardProgramsStyled key={program.id}>
-              <img src={img} alt={title} style={{ height: "100px" }} />
+              <img src={img} alt={title} />
               <h3>{title}</h3>
-              <p>
-                {fecha} <span>{minutos}</span>
-              </p>
+              <InfoProgramContainerStyled>
+                <p>
+                  {fecha}
+                  <span> • </span>
+                  {minutos}
+                </p>
+              </InfoProgramContainerStyled>
             </CardProgramsStyled>
           );
         })}
