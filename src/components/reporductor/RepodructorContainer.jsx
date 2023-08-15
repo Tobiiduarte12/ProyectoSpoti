@@ -6,18 +6,20 @@ import {
   ContenedorVolumenControlesStyled,
   IconsControlsContainerStyled,
   InfoContainerReproducerStyled,
-  LineReproducerStyled,
+  // LineReproducerStyled,
   ReproductorContainerStyled,
 } from "./ReproductorContainerStyled";
 
 // ****** icons ******
 import { BiRepeat } from "react-icons/bi";
-import { AiOutlineHeart, AiFillPlayCircle, AiFillSound } from "react-icons/ai";
-import { PiScreencast, PiDevicesBold } from "react-icons/pi";
+import { AiOutlineHeart, AiFillPlayCircle } from "react-icons/ai";
+import { PiScreencast } from "react-icons/pi";
 import { LiaRandomSolid } from "react-icons/lia";
-import { MdSkipNext, MdSkipPrevious, MdLineWeight } from "react-icons/md";
-import { BsFilePlay } from "react-icons/bs";
-import { TbMicrophone2 } from "react-icons/tb";
+import { MdSkipNext, MdSkipPrevious } from "react-icons/md";
+// import { BsFilePlay } from "react-icons/bs";
+// import { TbMicrophone2 } from "react-icons/tb";
+import VolumenComp from "../VolumenUi/VolumenComp";
+import { Slider } from "@mui/material";
 
 const RepodructorContainer = () => {
   return (
@@ -49,19 +51,25 @@ const RepodructorContainer = () => {
         </IconsControlsContainerStyled>
         <InfoContainerReproducerStyled style={{ display: "flex", gap: "10px" }}>
           <span>0:00</span>
-          <LineReproducerStyled></LineReproducerStyled>
+          <Slider
+            aria-label="Temperature"
+            defaultValue={0}
+            color="secondary"
+            style={{ width: "500px", color: "var(--text-subdued)" }}
+          />
           <span> -3:06</span>
         </InfoContainerReproducerStyled>
       </ContenedorControlesStyled>
       <ContenedorVolumenControlesStyled>
-        <BsFilePlay />
+        {/* <BsFilePlay />
         <TbMicrophone2 />
         <MdLineWeight />
         <PiDevicesBold />
-        <AiFillSound />
-        <LineReproducerStyled
+        <AiFillSound /> */}
+        {/* <LineReproducerStyled
           style={{ width: "80px", backgroundColor: "white" }}
-        ></LineReproducerStyled>
+        ></LineReproducerStyled> */}
+        <VolumenComp />
       </ContenedorVolumenControlesStyled>
     </ReproductorContainerStyled>
   );
