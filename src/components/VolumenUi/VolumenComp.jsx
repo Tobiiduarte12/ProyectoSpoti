@@ -1,6 +1,6 @@
 // import React from 'react'
 import { Slider, Stack } from "@mui/material";
-import { BsVolumeDown, BsVolumeUp } from "react-icons/bs";
+import { BsVolumeDown } from "react-icons/bs";
 
 const VolumenComp = () => {
   return (
@@ -8,16 +8,14 @@ const VolumenComp = () => {
       <Stack
         spacing={2}
         direction="row"
-        sx={{ mb: 1 }}
+        sx={{ mb: 0 }}
         alignItems="center"
-        style={{ width: "200px" }}
+        style={{ width: "150px" }}
         defaultValue={70}
       >
         <BsVolumeDown style={{ fontSize: "2rem" }} />
         <Slider aria-label="Volume" />
-        <BsVolumeUp style={{ fontSize: "2rem" }} />
       </Stack>
-      {/* <Slider disabled defaultValue={30} aria-label="Disabled slider" /> */}
     </>
   );
 };

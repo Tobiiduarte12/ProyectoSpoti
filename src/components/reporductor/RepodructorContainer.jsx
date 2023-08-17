@@ -12,14 +12,15 @@ import {
 
 // ****** icons ******
 import { BiRepeat } from "react-icons/bi";
-import { AiOutlineHeart, AiFillPlayCircle } from "react-icons/ai";
-import { PiScreencast } from "react-icons/pi";
+import { AiOutlineHeart, AiFillPlayCircle, AiFillSound } from "react-icons/ai";
+import { PiDevicesBold, PiScreencast } from "react-icons/pi";
 import { LiaRandomSolid } from "react-icons/lia";
-import { MdSkipNext, MdSkipPrevious } from "react-icons/md";
-// import { BsFilePlay } from "react-icons/bs";
-// import { TbMicrophone2 } from "react-icons/tb";
+import { MdLineWeight, MdSkipNext, MdSkipPrevious } from "react-icons/md";
+import { BsFilePlay } from "react-icons/bs";
+import { TbMicrophone2 } from "react-icons/tb";
 import VolumenComp from "../VolumenUi/VolumenComp";
 import { Slider } from "@mui/material";
+// import { BsFilePlay } from "react-icons/bs";
 
 const RepodructorContainer = () => {
   return (
@@ -61,14 +62,11 @@ const RepodructorContainer = () => {
         </InfoContainerReproducerStyled>
       </ContenedorControlesStyled>
       <ContenedorVolumenControlesStyled>
-        {/* <BsFilePlay />
-        <TbMicrophone2 />
-        <MdLineWeight />
-        <PiDevicesBold />
-        <AiFillSound /> */}
-        {/* <LineReproducerStyled
-          style={{ width: "80px", backgroundColor: "white" }}
-        ></LineReproducerStyled> */}
+        <BsFilePlay style={{ fontSize: "1.5rem" }} />
+        <TbMicrophone2 style={{ fontSize: "1.5rem" }} />
+        <MdLineWeight style={{ fontSize: "1.5rem" }} />
+        <PiDevicesBold style={{ fontSize: "1.5rem" }} />
+        <AiFillSound style={{ fontSize: "1.5rem" }} />
         <VolumenComp />
       </ContenedorVolumenControlesStyled>
     </ReproductorContainerStyled>
